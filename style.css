@@ -1,0 +1,258 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url("images/bg.webp");
+  height: 90vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  position: relative;
+}
+
+.box {
+  height: 90vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+
+}
+
+nav {
+
+  display: flex;
+  max-width: 120vh;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 48px;
+  position: relative;
+  margin-left: -78px;
+  padding-top: 18px;
+  z-index: 10;
+
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+
+}
+
+.hero {
+  height: calc(100% - 70px);
+  color: white;
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+  padding: 0 29px;
+}
+
+.hero> :first-child {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.hero> :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.hero> :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.seperation {
+  height: 7px;
+  background-color: rgb(41, 40, 40);
+}
+
+.btn {
+  padding: 3px 8px;
+  border-radius: 4px;
+  border: 0.25px solid white;
+  display: inline;
+  font-weight: bold;
+  background: transparent;
+  color: white;
+  opacity: 0.5;
+
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  border: 0.5px solid red;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 3px 24px;
+  opacity: 1.5;
+}
+
+.btn-red-sm {
+  background-color: red;
+  color: white;
+  border: 0.75px solid red;
+  opacity: 1.5;
+
+}
+
+.main input {
+  font-size: 20px;
+  border: 0.1px solid white;
+  border-radius: 4px;
+  padding: 3px 24px;
+  background: transparent;
+  background-color: black;
+  opacity: 0.3;
+  color: rgb(255, 255, 255);
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  height: 70vh;
+  margin: auto;
+  color: white;
+  align-items: center;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  max-width: 78vw;
+  height: 70vh;
+  color: white;
+  align-items: center;
+
+}
+
+.secimg {
+  position: relative;
+}
+
+.secimg img {
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+}
+
+.secimg video {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  width: 30vw;
+}
+
+.enjoy {
+  font-size: 52px;
+  font-weight: 900;
+}
+
+.enjoy2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.third video {
+  height: 30vh;
+  position: absolute;
+  display: flex;
+  top: 0px;
+  right: 86px;
+  width: 18vw;
+}
+
+.faq {
+  background-color: black;
+  color: white;
+  padding: 35px;
+
+}
+
+.faq h2 {
+  font-size: 50px;
+  font-weight: 1000;
+  z-index: 10;
+  margin-bottom: 25px;
+  color: white;
+  text-align: center;
+}
+
+
+.faqbox {
+  transition: all 0.5s ease-out;
+  color: white;
+  display: flex;
+  background-color: rgb(59, 58, 58);
+  padding: 30px;
+  cursor: pointer;
+  font-size: 25px;
+  max-width: 60vw;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.faqbox:hover {
+  background-color: rgb(208, 193, 193);
+  color: black;
+
+}
+
+.footer {
+  display: grid;
+  color: white;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 60vw;
+  padding: 34px;
+}
+
+/* h3{
+  position: relative;
+  margin: auto;
+  padding-left: 444px;
+  color: white;
+  font-size: 20px;
+} */
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+
+
+}
+
+.question {
+  color: white;
+  padding-top: 34px;
+  max-width: 60vw;
+  margin: auto;
+  font-size: 18px;
+}
+
+.footer a {
+  font-size: 14px;
+
+  color: white;
+}
